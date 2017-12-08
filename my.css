@@ -1,0 +1,76 @@
+body{
+
+width: 80%;
+margin:auto;
+background: magenta;
+color: white;
+font-family: aril, verdina, sens-serif;
+
+
+}
+header{
+
+}
+header ul{
+background: red;
+border:5px solid teal;
+margin: 2px;
+box-shadow: 4px 3px 2px black;
+
+}
+header ul li {
+display: inline-block;
+padding: 20px;
+
+}
+header ul li a {
+
+text-decoration: none;
+color: yellow;
+
+}
+
+header ul li a:hover {
+color: inherit;
+transition: 1s;
+
+
+}
+.farhad{
+overflow: hidden;
+}
+ .farhadm{
+	background: lightblue;
+	color: black;
+width:70%;
+float: left;
+box-shadow: 5px 6px 10px black;
+box-sizing: border-box;
+
+}
+.farhad aside {
+	background: yellow;
+	color: blue;
+overflow: hidden;
+width: 30%;
+float: left;
+box-shadow: 5px 6px 10px black;
+padding-bottom: 250px;
+padding-top: 250px;
+text-align: center;
+}
+footer {
+clear: both;
+background: #eee;
+border: 3px solid green;
+color: teal;
+padding: 30px;
+text-align: center;
+box-shadow: 5px 6px 10px black;
+
+}
+article{
+border: 3px solid magenta;
+	box-shadow: 5px 6px 10px black;
+	padding: 40px;
+}
